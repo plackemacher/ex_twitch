@@ -1,13 +1,11 @@
 defmodule ExTwitch.Chat do
-  @moduledoc false
-
   import ExTwitch
-  alias ExTwitch.Client
-  alias ExTwitch.Badges
+  alias ExTwitch.{Client, Badges}
 
-  def badges(client, channel_id) do
+  @spec badges(integer, Client.t) :: {term, Badges.t}
+  def badges(channel_id, client \\ %Client{}) do
     "chat/#{channel_id}/badges"
-    |> get(Client.headers(client))
+    |> get(client)
     |> parse_response(Badges)
   end
 end

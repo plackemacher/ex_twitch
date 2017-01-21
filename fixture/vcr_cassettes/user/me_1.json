@@ -1,0 +1,46 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-agent": "ExTwitch/0.1.0",
+        "Accept": "application/vnd.twitchtv.v5+json",
+        "Client-ID": "***",
+        "Authorization": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.twitch.tv/kraken/user"
+    },
+    "response": {
+      "body": "{\"display_name\":\"T3hD0gg\",\"type\":\"user\",\"bio\":null,\"created_at\":\"2014-02-14T03:47:12Z\",\"updated_at\":\"2016-12-24T06:29:34Z\",\"name\":\"t3hd0gg\",\"_id\":\"56744667\",\"logo\":null,\"email\":\"t3hd0gg@gmail.com\",\"email_verified\":true,\"partnered\":false,\"twitter_connected\":false,\"notifications\":{\"push\":true,\"email\":false}}",
+      "headers": {
+        "Date": "Sat, 21 Jan 2017 20:55:27 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "307",
+        "Connection": "keep-alive",
+        "Server": "nginx",
+        "Status": "200 OK",
+        "X-API-Version": "5",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "",
+        "Access-Control-Allow-Headers": "",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Vary": "Accept-Encoding",
+        "X-UA-Compatible": "IE=Edge,chrome=1",
+        "ETag": "\"7e9f6e252419382fa85b568959919bff\"",
+        "X-Request-Id": "c826518ad919af7a939a8e854e510618",
+        "Accept-Ranges": "bytes",
+        "X-Varnish": "2777135345",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-MH-Cache": "rails-varnish-api-aws-07cf3789a925c272a; M",
+        "Front-End-Https": "on"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

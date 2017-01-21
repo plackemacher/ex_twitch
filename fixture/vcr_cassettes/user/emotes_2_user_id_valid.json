@@ -1,0 +1,46 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-agent": "ExTwitch/0.1.0",
+        "Accept": "application/vnd.twitchtv.v5+json",
+        "Client-ID": "***",
+        "Authorization": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.twitch.tv/kraken/users/56744667/emotes"
+    },
+    "response": {
+      "body": "{\"emoticon_sets\":{\"0\":[{\"id\":973,\"code\":\"DAESuppy\"},{\"id\":15,\"code\":\"JKanStyle\"},{\"id\":16,\"code\":\"OptimizePrime\"},{\"id\":17,\"code\":\"StoneLightning\"},{\"id\":18,\"code\":\"TheRinger\"},{\"id\":7,\"code\":\"B-?\\\\)\"},{\"id\":5,\"code\":\"\\\\:-?[z|Z|\\\\|]\"},{\"id\":1,\"code\":\"\\\\:-?\\\\)\"},{\"id\":2,\"code\":\"\\\\:-?\\\\(\"},{\"id\":12,\"code\":\"\\\\:-?(p|P)\"},{\"id\":13,\"code\":\"\\\\;-?(p|P)\"},{\"id\":9,\"code\":\"\\\\&lt\\\\;3\"},{\"id\":11,\"code\":\"\\\\;-?\\\\)\"},{\"id\":14,\"code\":\"R-?\\\\)\"},{\"id\":3,\"code\":\"\\\\:-?D\"},{\"id\":8,\"code\":\"\\\\:-?(o|O)\"},{\"id\":4,\"code\":\"\\\\&gt\\\\;\\\\(\"},{\"id\":20,\"code\":\"EagleEye\"},{\"id\":22,\"code\":\"RedCoat\"},{\"id\":26,\"code\":\"JonCarnage\"},{\"id\":28,\"code\":\"MrDestructoid\"},{\"id\":30,\"code\":\"BCWarrior\"},{\"id\":33,\"code\":\"DansGame\"},{\"id\":34,\"code\":\"SwiftRage\"},{\"id\":36,\"code\":\"PJSalt\"},{\"id\":40,\"code\":\"KevinTurtle\"},{\"id\":41,\"code\":\"Kreygasm\"},{\"id\":46,\"code\":\"SSSsss\"},{\"id\":47,\"code\":\"PunchTrees\"},{\"id\":50,\"code\":\"ArsonNoSexy\"},{\"id\":52,\"code\":\"SMOrc\"},{\"id\":25,\"code\":\"Kappa\"},{\"id\":32,\"code\":\"GingerPower\"},{\"id\":65,\"code\":\"FrankerZ\"},{\"id\":66,\"code\":\"OneHand\"},{\"id\":68,\"code\":\"HassanChop\"},{\"id\":69,\"code\":\"BloodTrail\"},{\"id\":73,\"code\":\"DBstyle\"},{\"id\":74,\"code\":\"AsianGlow\"},{\"id\":86,\"code\":\"BibleThump\"},{\"id\":87,\"code\":\"ShazBotstix\"},{\"id\":88,\"code\":\"PogChamp\"},{\"id\":91,\"code\":\"OMGScoots\"},{\"id\":92,\"code\":\"PMSTwin\"},{\"id\":244,\"code\":\"FUNgineer\"},{\"id\":245,\"code\":\"ResidentSleeper\"},{\"id\":354,\"code\":\"4Head\"},{\"id\":357,\"code\":\"HotPokket\"},{\"id\":360,\"code\":\"FailFish\"},{\"id\":1898,\"code\":\"ThunBeast\"},{\"id\":1904,\"code\":\"BigBrother\"},{\"id\":1899,\"code\":\"TF2John\"},{\"id\":1900,\"code\":\"RalpherZ\"},{\"id\":1906,\"code\":\"SoBayed\"},{\"id\":1901,\"code\":\"Kippa\"},{\"id\":1902,\"code\":\"Keepo\"},{\"id\":1896,\"code\":\"WholeWheat\"},{\"id\":3412,\"code\":\"PeoplesChamp\"},{\"id\":3632,\"code\":\"GrammarKing\"},{\"id\":3668,\"code\":\"PanicVis\"},{\"id\":4057,\"code\":\"BrokeBack\"},{\"id\":4240,\"code\":\"PipeHype\"},{\"id\":30134,\"code\":\"Mau5\"},{\"id\":4337,\"code\":\"YouWHY\"},{\"id\":4338,\"code\":\"RitzMitz\"},{\"id\":4339,\"code\":\"EleGiggle\"},{\"id\":68856,\"code\":\"MingLee\"},{\"id\":51838,\"code\":\"ArgieB8\"},{\"id\":7427,\"code\":\"TheThing\"},{\"id\":55338,\"code\":\"KappaPride\"},{\"id\":52492,\"code\":\"ShadyLulu\"},{\"id\":58127,\"code\":\"CoolCat\"},{\"id\":111351,\"code\":\"TheTarFu\"},{\"id\":62833,\"code\":\"riPepperonis\"},{\"id\":22639,\"code\":\"BabyRage\"},{\"id\":62834,\"code\":\"duDudu\"},{\"id\":22998,\"code\":\"panicBasket\"},{\"id\":62835,\"code\":\"bleedPurple\"},{\"id\":62836,\"code\":\"twitchRaid\"},{\"id\":27509,\"code\":\"PermaSmug\"},{\"id\":27602,\"code\":\"BuddhaBar\"},{\"id\":107030,\"code\":\"RuleFive\"},{\"id\":28087,\"code\":\"WutFace\"},{\"id\":28328,\"code\":\"PRChase\"},{\"id\":3792,\"code\":\"ANELE\"},{\"id\":58135,\"code\":\"DendiFace\"},{\"id\":48,\"code\":\"FunRun\"},{\"id\":30259,\"code\":\"HeyGuys\"},{\"id\":83536,\"code\":\"BCouch\"},{\"id\":38586,\"code\":\"PraiseIt\"},{\"id\":35063,\"code\":\"mcaT\"},{\"id\":38436,\"code\":\"TTours\"},{\"id\":84608,\"code\":\"cmonBruh\"},{\"id\":115075,\"code\":\"PrimeMe\"},{\"id\":46248,\"code\":\"deIlluminati\"},{\"id\":34875,\"code\":\"NotATK\"},{\"id\":81243,\"code\":\"PeteZaroll\"},{\"id\":81244,\"code\":\"PeteZarollTie\"},{\"id\":46881,\"code\":\"HumbleLife\"},{\"id\":49106,\"code\":\"CorgiDerp\"},{\"id\":89945,\"code\":\"SmoocherZ\"},{\"id\":10,\"code\":\"\\\\:-?[\\\\\\\\/]\"},{\"id\":64138,\"code\":\"SeemsGood\"},{\"id\":98562,\"code\":\"FutureMan\"},{\"id\":116625,\"code\":\"CurseLit\"},{\"id\":58765,\"code\":\"NotLikeThis\"},{\"id\":6,\"code\":\"[oO](_|\\\\.)[oO]\"},{\"id\":106293,\"code\":\"VoteYea\"},{\"id\":81636,\"code\":\"MikeHogu\"},{\"id\":106294,\"code\":\"VoteNay\"},{\"id\":70433,\"code\":\"KappaRoss\"},{\"id\":116942,\"code\":\"GOWSkull\"},{\"id\":81274,\"code\":\"VoHiYo\"},{\"id\":74510,\"code\":\"KappaClaus\"},{\"id\":99263,\"code\":\"AMPEnergy\"},{\"id\":81273,\"code\":\"OSkomodo\"},{\"id\":81249,\"code\":\"OSsloth\"},{\"id\":81248,\"code\":\"OSfrog\"},{\"id\":111119,\"code\":\"TinyFace\"},{\"id\":81103,\"code\":\"OhMyDog\"},{\"id\":81997,\"code\":\"KappaWealth\"},{\"id\":99265,\"code\":\"AMPEnergyCherry\"},{\"id\":114835,\"code\":\"DogFace\"},{\"id\":20225,\"code\":\"HassaanChop\"},{\"id\":114836,\"code\":\"Jebaited\"},{\"id\":110785,\"code\":\"AMPTropPunch\"},{\"id\":114846,\"code\":\"TooSpicy\"},{\"id\":114847,\"code\":\"WTRuck\"},{\"id\":90075,\"code\":\"NomNom\"},{\"id\":90076,\"code\":\"StinkyCheese\"},{\"id\":90129,\"code\":\"ChefFrank\"},{\"id\":114856,\"code\":\"UncleNox\"},{\"id\":134254,\"code\":\"YouDontSay\"},{\"id\":134255,\"code\":\"UWot\"},{\"id\":134256,\"code\":\"RlyTho\"},{\"id\":94038,\"code\":\"TBTacoLeft\"},{\"id\":94039,\"code\":\"TBCheesePull\"},{\"id\":94040,\"code\":\"TBTacoRight\"},{\"id\":97855,\"code\":\"BudBlast\"},{\"id\":97856,\"code\":\"BudStar\"},{\"id\":114870,\"code\":\"RaccAttack\"},{\"id\":102556,\"code\":\"PJSugar\"},{\"id\":102242,\"code\":\"DoritosChip\"},{\"id\":114876,\"code\":\"StrawBeary\"},{\"id\":100590,\"code\":\"OpieOP\"},{\"id\":111700,\"code\":\"DatSheffy\"},{\"id\":110734,\"code\":\"DxCat\"},{\"id\":110735,\"code\":\"DxAbomb\"},{\"id\":114738,\"code\":\"BlargNaut\"},{\"id\":111300,\"code\":\"PicoMause\"},{\"id\":112288,\"code\":\"copyThis\"},{\"id\":112289,\"code\":\"pastaThat\"},{\"id\":112290,\"code\":\"imGlitch\"},{\"id\":112291,\"code\":\"GivePLZ\"},{\"id\":111792,\"code\":\"UnSane\"},{\"id\":112292,\"code\":\"TakeNRG\"},{\"id\":115233,\"code\":\"BrainSlug\"},{\"id\":115234,\"code\":\"BatChest\"},{\"id\":117701,\"code\":\"FreakinStinkin\"},{\"id\":118772,\"code\":\"SuperVinlin\"},{\"id\":133468,\"code\":\"ItsBoshyTime\"},{\"id\":117484,\"code\":\"Poooound\"},{\"id\":138325,\"code\":\"NinjaGrumpy\"},{\"id\":120232,\"code\":\"TriHard\"},{\"id\":133537,\"code\":\"KAPOW\"},{\"id\":134472,\"code\":\"SoonerLater\"},{\"id\":135393,\"code\":\"PartyTime\"},{\"id\":123171,\"code\":\"CoolStoryBob\"},{\"id\":124535,\"code\":\"NerfRedBlaster\"},{\"id\":124537,\"code\":\"NerfBlueBlaster\"},{\"id\":141421,\"code\":\"TwitchRPG\"},{\"id\":142140,\"code\":\"MVGame\"}],\"3345\":[{\"id\":12524,\"code\":\"vineKappa\"},{\"id\":34790,\"code\":\"vineSad\"},{\"id\":34950,\"code\":\"vineRalph\"},{\"id\":34944,\"code\":\"vineLuigi\"},{\"id\":34943,\"code\":\"vineAlien\"},{\"id\":56058,\"code\":\"vineGasm\"},{\"id\":53108,\"code\":\"vineSponge\"},{\"id\":89354,\"code\":\"vineSalt\"},{\"id\":91423,\"code\":\"vineRaptor\"},{\"id\":116075,\"code\":\"vineScoot\"},{\"id\":116081,\"code\":\"vineEscape\"},{\"id\":116083,\"code\":\"vineTommy\"},{\"id\":119330,\"code\":\"vineClown\"},{\"id\":116089,\"code\":\"vineChamp\"},{\"id\":119331,\"code\":\"vineJape\"},{\"id\":119332,\"code\":\"vineWhat\"},{\"id\":119334,\"code\":\"vineBadPC\"},{\"id\":136443,\"code\":\"vineSchut\"},{\"id\":125316,\"code\":\"vineBowie\"},{\"id\":125293,\"code\":\"vineKirb\"}],\"19194\":[{\"id\":115844,\"code\":\"FlipThis\"},{\"id\":115845,\"code\":\"TableHere\"},{\"id\":115846,\"code\":\"ScaredyCat\"},{\"id\":115847,\"code\":\"KappaHD\"},{\"id\":115848,\"code\":\"MiniK\"},{\"id\":134251,\"code\":\"PrimeYouDontSay\"},{\"id\":134252,\"code\":\"PrimeUWot\"},{\"id\":134253,\"code\":\"PrimeRlyTho\"}]}}",
+      "headers": {
+        "Date": "Sat, 21 Jan 2017 20:55:28 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "6282",
+        "Connection": "keep-alive",
+        "Server": "nginx",
+        "Status": "200 OK",
+        "X-API-Version": "5",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "",
+        "Access-Control-Allow-Headers": "",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Vary": "Accept-Encoding",
+        "X-UA-Compatible": "IE=Edge,chrome=1",
+        "ETag": "\"b5efd8a3324e0b4681e7f35423a72328\"",
+        "X-Request-Id": "5074cf15209ed26544766529b9ce7c06",
+        "Accept-Ranges": "bytes",
+        "X-Varnish": "697100042",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-MH-Cache": "rails-varnish-api-aws-0843adffcc2b7ada5; M",
+        "Front-End-Https": "on"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

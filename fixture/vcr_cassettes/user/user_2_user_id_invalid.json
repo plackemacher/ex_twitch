@@ -1,0 +1,34 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-agent": "ExTwitch/0.1.0",
+        "Accept": "application/vnd.twitchtv.v5+json",
+        "Client-ID": "***",
+        "Authorization": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.twitch.tv/kraken/users/999999999"
+    },
+    "response": {
+      "body": "{\"error\":\"Not Found\",\"status\":404,\"message\":\"User \\\"999999999\\\" was not found\"}",
+      "headers": {
+        "Date": "Sat, 21 Jan 2017 20:55:28 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "79",
+        "Connection": "keep-alive",
+        "Server": "nginx",
+        "Access-Control-Allow-Headers": "Accept, Authorization, Client-Id, Twitch-Api-Token, X-Forwarded-Proto, X-Requested-With, X-Csrf-Token, Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Max-Age": "0",
+        "Twitch-Trace-Id": "91055cc74befe05a2d54eb701ff6121d"
+      },
+      "status_code": 404,
+      "type": "ok"
+    }
+  }
+]

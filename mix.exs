@@ -44,12 +44,10 @@ defmodule ExTwitch.Mixfile do
 
   defp package do
     [
-      maintainers: [
-        "Pat Lackemacher",
-      ],
+      maintainers: ["Pat Lackemacher"],
       licenses: ["MIT"],
       links: %{
-        "Github" => "https://github.com/plackemacher/ex_twitch"
+        "GitHub" => "https://github.com/plackemacher/ex_twitch"
       }
     ]
   end
