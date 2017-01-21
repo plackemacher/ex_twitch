@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/plackemacher/ex_twitch.svg?branch=master)](https://travis-ci.org/plackemacher/ex_twitch)
-[![Codecov master](https://img.shields.io/codecov/c/github/plackemacher/ex_twitch/master.svg)]()
+[![Codecov master](https://img.shields.io/codecov/c/github/plackemacher/ex_twitch/master.svg)](https://codecov.io/gh/plackemacher/ex_twitch)
 [![Inline docs](http://inch-ci.org/github/plackemacher/ex_twitch.svg)](http://inch-ci.org/github/plackemacher/ex_twitch)
 
 # ExTwitch
