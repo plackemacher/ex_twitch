@@ -33,8 +33,9 @@ defmodule ExTwitch.Mixfile do
       {:httpoison, "~> 0.10"},
       {:poison, "~> 3.0"},
       {:dialyxir, "~> 0.4", only: :dev, runtime: false},
-      {:earmark, "~> 1.0", only: :doc},
-      {:ex_doc, "~> 0.14.5", only: :doc},
+      {:earmark, "~> 1.0", only: :docs},
+      {:ex_doc, "~> 0.14.5", only: :docs},
+      {:inch_ex, "~> 0.5", only: :docs},
       {:exvcr, "~> 0.6", only: :test},
       {:meck, "~> 0.8", only: :test},
       {:excoveralls, "~> 0.6", only: :test}
