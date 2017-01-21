@@ -6,16 +6,15 @@
 
 Simple Elixir wrapper for the [Twitch V5 API](https://dev.twitch.tv/docs/).
 
+This is still a work in progress but some aspects do work. **Use at your own risk.**
+
 ## Installation
 
-**Not yet published!**
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_twitch` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `ex_twitch` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:ex_twitch, "~> 0.1.0"}]
+  [{:ex_twitch, "~> 0.0.1"}]
 end
 ```
 
@@ -38,8 +37,8 @@ you've seen that Twitch has added another API, feel free to do a pull request to
   - [ ] Delete Reaction to a Feed Comment
 - [Channels](https://dev.twitch.tv/docs/v5/reference/channels/)
   - [x] Get Channel
-  - [ ] Get Channel by ID
-  - [ ] Update Channel
+  - [x] Get Channel by ID
+  - [x] Update Channel
   - [ ] Get Channel Editors
   - [ ] Get Channel Followers
   - [ ] Get Channel Teams
@@ -49,7 +48,7 @@ you've seen that Twitch has added another API, feel free to do a pull request to
   - [ ] Start Channel Commercial
   - [ ] Reset Channel Stream Key
 - [Chat](https://dev.twitch.tv/docs/v5/reference/chat/)
-  - [ ] Get Chat Badges by Channel
+  - [x] Get Chat Badges by Channel
   - [ ] Get Chat Emoticons by Set
   - [ ] Get All Chat Emoticons
 - [Games](https://dev.twitch.tv/docs/v5/reference/games/)
@@ -72,9 +71,10 @@ you've seen that Twitch has added another API, feel free to do a pull request to
 - [Users](https://dev.twitch.tv/docs/v5/reference/users/)
   - [x] Get User
   - [x] Get User by ID
+  - [x] [Get User by User Name](https://dev.twitch.tv/docs/v5/guides/using-the-twitch-api/#translating-from-user-names-to-user-ids)
   - [x] Get User Emotes
-  - [ ] Check User Subscription by Channel
-  - [ ] Get User Follows
+  - [x] Check User Subscription by Channel
+  - [x] Get User Follows
   - [ ] Check User Follows by Channel
   - [ ] Follow Channel
   - [ ] Unfollow Channel
