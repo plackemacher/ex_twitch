@@ -3,11 +3,12 @@ defmodule ExTwitch.User do
   alias ExTwitch.{Client, Follow, Channel}
 
   defstruct ~w(
-    type name created_at updated_at logo _id display_name bio
+    type name created_at updated_at logo _id display_name bio email email_verified partnered twitter_connected
   )a
 
   @type t :: %__MODULE__{type: binary, name: binary, created_at: binary, updated_at: binary,
-    logo: binary, _id: binary, display_name: binary, bio: binary
+    logo: binary, _id: binary, display_name: binary, bio: binary, email: binary, email_verified: boolean,
+    partnered: boolean, twitter_connected: boolean
   }
 
   @spec me(Client.t) :: {:ok, t} | {:error, ExTwitch.error}
