@@ -6,7 +6,7 @@
 
 Simple Elixir wrapper for the [Twitch V5 API](https://dev.twitch.tv/docs/).
 
-This is still a work in progress but some aspects do work. **Use at your own risk.**
+This is still a work in progress but some aspects do work. **Use at your own risk especially considering issue [#1](https://github.com/plackemacher/ex_twitch/issues/1).**
 
 ## Installation
 
