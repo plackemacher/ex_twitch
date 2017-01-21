@@ -1,6 +1,12 @@
+[![Build Status](https://travis-ci.org/plackemacher/ex_twitch.svg?branch=master)](https://travis-ci.org/plackemacher/ex_twitch)
+[![Codecov master](https://img.shields.io/codecov/c/github/plackemacher/ex_twitch/master.svg)]()
+[![Inline docs](http://inch-ci.org/github/plackemacher/ex_twitch.svg)](http://inch-ci.org/github/plackemacher/ex_twitch)
+
 # ExTwitch
 
-**TODO: Add description**
+**Currently a WIP**
+
+Simple Elixir wrapper for the [Twitch V5 API](https://dev.twitch.tv/docs/).
 
 ## Installation
 
